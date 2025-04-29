@@ -117,13 +117,10 @@ const Index: React.FC = () => {
             {/* Monthly Plan */}
             <Col xs={24} sm={12} md={10} lg={8}>
               <Card className="h-full shadow-md hover:shadow-lg transition-shadow relative">
-                <div className="absolute top-0 right-0 bg-virtucalls-primary text-white px-4 py-1 text-sm rounded-bl-lg">
-                  Popular
-                </div>
                 <div className="text-center">
                   <Title level={3} className="mb-1">Monthly</Title>
                   <div className="mb-6">
-                    <span className="text-3xl font-bold">$30</span>
+                    <span className="text-3xl font-bold">$40</span>
                     <span className="text-gray-600">/month</span>
                   </div>
                   <ul className="space-y-3 text-left mb-8">
@@ -150,10 +147,13 @@ const Index: React.FC = () => {
             {/* Annual Plan */}
             <Col xs={24} sm={12} md={10} lg={8}>
               <Card className="h-full shadow-md hover:shadow-lg transition-shadow border">
+              <div className="absolute top-0 right-0 bg-virtucalls-primary text-white px-4 py-1 text-sm rounded-bl-lg">
+                  Popular
+                </div>
                 <div className="text-center">
                   <Title level={3} className="mb-1">Annual</Title>
                   <div className="mb-6">
-                    <span className="text-3xl font-bold">$40</span>
+                    <span className="text-3xl font-bold">$4340</span>
                     <span className="text-gray-600">/month</span>
                   </div>
                   <ul className="space-y-3 text-left mb-8">
