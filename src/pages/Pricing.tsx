@@ -13,7 +13,7 @@ const plans = [
   {
     id: 'monthly',
     name: 'Monthly',
-    price: 30,
+    price: 40,
     currency: 'SAR',
     features: [
       'Custom subdomain',
@@ -21,12 +21,12 @@ const plans = [
       'Unlimited meetings',
       'Up to 100 participants'
     ],
-    popular: true
+    popular: false
   },
   {
     id: 'annual',
     name: 'Annual',
-    price: 40,
+    price: 30,
     currency: 'SAR',
     features: [
       'Everything in Monthly plan',
@@ -34,7 +34,7 @@ const plans = [
       'Advanced analytics',
       'Save 16% compared to monthly'
     ],
-    popular: false
+    popular: true
   }
 ];
 
